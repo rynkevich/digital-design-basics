@@ -1,0 +1,62 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=task_d
+[Library]
+task_d=.\task_d\task_d.lib
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=Xilinx SPARTAN3A
+IMPL_TOOL=
+SYNTH_TOOL=
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+task_d=.
+Active_lib=SPARTAN3A
+xilinxun=SPARTAN3A
+UnlinkedDesignLibrary=SPARTAN3A
+DESIGNS=SPARTAN3A
+[SpecTracer]
+WindowVisible=0
+[Folders]
+Name3=Makefiles
+Directory3=c:\My_Designs\digital_design_introduction\task_d\
+Extension3=mak
+Name4=Memory
+Directory4=c:\My_Designs\digital_design_introduction\task_d\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=c:\My_Designs\digital_design_introduction\task_d\
+Extension5=dll
+Name6=PDF
+Directory6=c:\My_Designs\digital_design_introduction\task_d\
+Extension6=pdf
+Name7=HTML
+Directory7=c:\My_Designs\digital_design_introduction\task_d\
+Extension7=
+[Files]
+/mux2_vector.vhd=-1
+[Files.Data]
+.\src\mux2_vector.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=mux2_vector|behavioral|0 
+ShowHide=ShowTopLevel
+Selected=
