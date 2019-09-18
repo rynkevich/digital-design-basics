@@ -14,6 +14,7 @@ Edfmap.ini
 *.asdbw/
 compile/
 *.set
+*.info
 
 # Comment to save compilation order:
 compilation.order
